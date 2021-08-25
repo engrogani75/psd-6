@@ -1,0 +1,520 @@
+
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ------------------logo area css --------------- */
+
+#logo_area{
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+#logo_area .navbar-brand{
+    margin-left: 30%;
+    width: 40%;
+}
+
+#logo_area ul{
+    margin-right: 10%;
+}
+
+#logo_area ul li:last-child{
+    background-color: #00c8c8;
+    color: #fff;
+}
+
+#logo_area ul li a{
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+#logo_area ul li .white{
+    color: #fff;
+}
+
+#logo_area .fas{
+    color: #fff;
+}
+
+
+#logo_area .fas{
+    margin-right: 10px;
+}
+
+
+
+
+
+/* ------------------------main_menu-------------------------- */
+#main_menu{
+    position: relative;
+}
+
+#main_menu ul li a{
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-right: 10px;  
+}
+
+#main_menu ul li a:hover{
+    color: #23c4c4;
+}
+
+#main_menu input{
+    margin-right: 0px;
+    padding-right: 0px;
+    border: none;
+    outline-style: none;
+}
+
+#main_menu button{
+   left: -40px;
+   position: relative;
+   border: none;
+}
+
+#main_menu .btn{
+    background-color: #fff;
+    color: #000;
+}
+
+
+#main_menu .form-control{
+    width: 188px;
+
+}
+
+#main_menu ul .dropdown-menu{
+    min-width: 30rem;
+    text-transform: uppercase;
+}
+
+#main_menu ul .dropdown-menu a{
+    font-size: 14px;
+    color: #575153;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+
+#main_menu ul ul{
+    height: 600px;
+}
+
+#main_menu ul .dropdown-menu .casuals{
+    float: left;
+}
+
+#main_menu ul .dropdown-menu .formal{
+    float: left;
+}
+
+#main_menu ul .dropdown-menu .discount_box{
+    background-color: #333;
+    top: 250px;
+    position: relative;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+
+#main_menu ul .dropdown-menu .discount_box li{
+    font-size: 36px;
+    text-align: center;
+    top: 30%;
+    position: absolute;
+}
+
+#main_menu ul .dropdown-menu .discount_box li p{
+    color: #fff;
+    margin: 0px 20px;
+}
+
+#main_menu .figure{
+    position: relative;
+}
+
+#main_menu .figure .figure-caption{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+#main_menu .figure .figure-caption h1{
+   font-size: 32px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+#main_menu .figure .figure-caption a{
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+ }
+
+
+/* ------------------Registaion area css --------------- */
+#sing_up_area{
+    padding: 10px;
+    position: relative;
+
+}
+
+.sign_area{
+    position: relative;
+}
+
+.sign_area::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 102%;
+    background-color: #eee;
+    height: 50vh;
+    width: 1px;
+}
+
+
+
+#sing_up_area h2{
+    margin-bottom: 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #575153;
+
+}
+
+#sing_up_area .form-control{
+    border: 1px solid #e7e7e7;
+    opacity: 0.2s;
+}
+
+#sing_up_area .form-control:hover{
+    background-color: #fcf6f7;
+    border: 1px solid #bb5465;
+}
+
+#sing_up_area a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#sing_up_area p{
+    color: #969494;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#sing_up_area .submit{
+    margin-top: 10px;
+}
+#sing_up_area .submit .btn{
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    border: 3px solid #737373;
+    transition: 0.5s;
+
+}
+
+
+#sing_up_area .submit .btn:hover{
+    background-color: #f00e0e;
+}
+
+
+
+/* -------------------------------Brand css ------------------------------ */
+
+#brand_area .brand_img img{
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+#brand_area h3{
+    margin-top: 10px;
+    color: #575153;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#brand_area h2{
+    color: #575153;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#brand_area h5{
+    color: #7c7c7c;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#brand_area p{
+    color: #acabab;
+    font-size: 13px;
+}
+
+#brand_area .brand_content{
+    margin-top: 40px;
+}
+
+/* ------------------local store area css --------------- */
+
+#store_area .brand_img img{
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+#store_area h3{
+    margin-top: 10px;
+    color: #575153;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#store_area h2{
+    color: #575153;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#store_area h5{
+    color: #7c7c7c;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#store_area p{
+    color: #acabab;
+    font-size: 13px;
+}
+
+#store_area .card {
+    border: none;
+}
+
+#store_area .card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #736e70;
+    font-size: 18px;
+    border-bottom: none;
+}
+
+#store_area .btn{
+    background-color: #fff;
+    border: 3px solid #575153;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.5s;
+    letter-spacing: 0.1cm;
+}
+
+#store_area .btn:hover{
+    color: #fff;
+    background-color: #00c8c8;
+   
+}
+
+#map_area .card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #736e70;
+    font-size: 18px;
+    border-bottom: none;
+}
+#map_area h5{
+    color: #7c7c7c;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#map_area p{
+    color: #acabab;
+    font-size: 13px;
+}
+
+#map_area li{
+    color: #acabab;
+    font-size: 13px;
+    padding: 8px 0;
+}
+
+#map_area li span{
+    margin-left: 5px;
+}
+
+#main_menu .left_caption .figure-caption{
+    left: 20%;
+}
+
+
+/* ------------------product view  area css --------------- */
+
+
+#product_view_area .nav-item{
+    display: inline-block;
+}
+#product_view_area .nav-link{
+    display: inline-block;
+}
+
+#product_view_area .nav{
+    position: absolute;
+}
+
+#product_view_area h2{
+    color: #8c8889;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+}
+
+#product_view_area h2{
+    color: #8c8889;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------footer area css --------------- */
+
+#footer_area{
+    background-color: #f8f8f8;
+    padding: 60px 0px;
+    margin: auto 0;
+}
+
+.footer{
+    margin-left: 180px;
+}
+
+
+
+#footer_area .list-unstyled h5{
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+
+}
+
+#footer_area .list-unstyled li{
+    margin-bottom: 15px;
+}
+
+#footer_area .list-unstyled a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #7b7b7b;
+
+}
+
+#footer_area .list-unstyled p{
+    font-size: 13px;
+    color: #7b7b7b;
+
+}
+
+/* ----------------------award box css--------------------------------------- */
+
+
+#box{
+    position: relative;
+    margin-left: 15%;
+}
+
+.box{
+    position: relative;
+    margin: 0px 5px;
+
+}
+
+.one{
+    background-color: #333;
+    color: #fff;
+    padding: 10%;
+}
+
+.one h3{
+    font-size: 26px;
+    margin: 2px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.two{
+    background-color: #00c8c8;
+    color: #fff;
+    padding: 13%;
+}
+
+
+.two ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.two ul .fab{
+    color: #fff;
+}
+
+/* -------------------------copyright--------------------------- */
+
+#copyright_area{
+    background-color: #333333;
+    color:#777;
+}
+
+#copyright_area p{
+   font-size: 13px;
+   margin-top: 15px;
+   text-transform: capitalize;
+}
+
+#copyright_area .left p{
+   margin-right: 10px;
+ }
+
+#copyright_area .left{
+    float: left;
+ }
+
+ #copyright_area .right{
+    float: left;
+ }
